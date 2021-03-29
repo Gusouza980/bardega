@@ -1,0 +1,191 @@
+/* PALETA DE COR */
+
+:root{
+    --laranja1: #F45028;
+    --branco : white;
+    --preto: black;
+}
+
+/* FONTES */
+
+@font-face {
+    font-family: Bahnschrift;
+    src: url(bahnschrift.ttf);
+}
+
+/* BACKGROUNDS */
+
+.bg-laranja-1{
+    background-color: var(--laranja1) !important;
+}
+
+.bg-preto{
+    background-color: var(--preto) !important;
+}
+
+/* TEXT COLORS */
+
+
+/* SECTION 1 */
+
+#home-section1-box-title{
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: 0.265em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#home-section1-box-text{
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.095em;
+    text-transform: uppercase;
+}
+
+#home-section1-box-subtext{
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 108.52%;
+    /* or 24px */
+    text-align: center;
+    letter-spacing: 0.265em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#home-section1-box-botao{
+    width: 181.6px;
+    height: 59.44px;
+    left: 578.34px;
+    top: 776.07px;
+    background: var(--laranja1);
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 108.52%;
+    text-align: center;
+    letter-spacing: 0.265em;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid var(--laranja1);
+}
+
+#home-section1-nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.home-section1-nav-item{
+    float: left;
+    background-color: white;
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.095em;
+    text-transform: uppercase;
+}
+
+#home-section1-nav-lateral{
+    background-color: black;
+}
+
+#home-section1-nav-lateral-page-number{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: white;
+    transform: rotate(180deg);
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.095em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+/* SECTION 2 */
+
+#home-section2-box1{
+    display: block;
+    position: absolute;
+    top: 0px; left: -200px;
+    width: 313.42px;
+}
+
+#home-section2-box1-title{
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.1032px;
+    line-height: 139.52%;
+    /* identical to box height, or 25px */
+
+    letter-spacing: 0.265em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#home-section2-box1-text{
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25.2399px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.095em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+#home-section2-box1-subtext{
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 135%;
+    /* or 22px */
+
+    letter-spacing: 0.265em;
+
+    color: #FFFFFF;
+}
+
+#home-section2-box1-botao{
+    width: 149.29px;
+    height: 48.86px;
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.2194px;
+    line-height: 123.52%;
+    /* or 19px */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    background: var(--laranja1);
+    color:white;
+    border: 1px solid var(--laranja);
+}

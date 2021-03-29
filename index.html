@@ -9,42 +9,173 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
-<div class="container-fluid" style="background-color: red;">
-    <div class="row justify-content-center align-items-center" style=" min-height: 100vh;">
-        <div class="col-6" style="background-color: black; color:white;">
-            <div class="row justify-content-center">
-                <div class="col-8 text-center">
-                    <h6>BARDEGA</h6>
+<body>
+    <div class="container-fluid" style="background: url(imagens/background-home-1.png); background-size: cover; background-position: center;">
+        <div class="row justify-content-start align-items-center" style=" min-height: 100vh;">
+            <div class="offset-lg-2 col-lg-4" style="background-color: black; color:white;">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img class="" width="15" src="imagens/retangulo-laranja.png" alt="Retângulo laranja">
+                    </div>
                 </div>
-            </div>
-            <div class="row justify-content-center pt-5">
-                <div class="col-8 text-center">
-                    PRATOS ESPECIAIS
+                <div class="row justify-content-center mt-4">
+                    <div class="col-11 px-5 text-center" id="home-section1-box-title">
+                        <h6>BARDEGA</h6>
+                    </div>
                 </div>
-            </div>
+                <div class="row justify-content-center pt-3">
+                    <div class="col-11 px-5 text-center" id="home-section1-box-text">
+                        “O PRIMEIRO, E MAIS PREMIADO BAR DE VÍNHOS DO BRASIL”
+                    </div>
+                </div>
 
-            <div class="row justify-content-center pb-5">
-                <div class="col-8 text-center">
-                    NOSSO CARDÁPIO APRESENTA ACOMPANHAMENTOS ESPECIALMENTE CRIADOS PARA HARMONIZAR COM NOSSOS MEMORÁVEIS VINHOS. VENHA CONHECER E SABOREAR!
+                <div class="row justify-content-center pt-3">
+                    <div class="col-11 px-2 text-center" id="home-section1-box-subtext">
+                        pela Revista<br> Veja Comer e Beber.                
+                    </div>
+                </div>
+
+                <div class="row justify-content-center pt-3">
+                    <div class="col-12 text-center" >
+                        <button id="home-section1-box-botao">SAIBA MAIS</button>               
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: block; position: absolute; top: 25px; left: 25px;">
+            <img class="w-100" src="imagens/logo-branca.png" alt="Logo Bardega">
+        </div>
+        <div style="display: block; position: absolute; top: calc(50% - 50px); left: 0px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;">
+            <img class="w-100" src="imagens/botao-reserva-mesa.png" alt="Reservar mesa">
+        </div>
+
+        <div style="display: block; position: absolute; bottom: 0px; right: 0px;">
+            <ul id="home-section1-nav">
+                <li class="home-section1-nav-item px-4 pt-4 pb-3">
+                    HOME
+                </li>
+                <li class="home-section1-nav-item px-4 pt-4 pb-3">
+                    BARDEGA
+                </li>
+                <li class="home-section1-nav-item px-4 pt-4 pb-3">
+                    VINHOS
+                </li>
+                <li class="home-section1-nav-item px-4 pt-4 pb-3">
+                    CARDÁPIO
+                </li>
+                <li class="home-section1-nav-item px-4 pt-4 pb-3">
+                    BLOG
+                </li>
+                <li class="home-section1-nav-item px-4 pt-4 pb-3">
+                    GALERIA
+                </li>
+                <li class="home-section1-nav-item px-4 pt-4 pb-3 bg-laranja-1 text-white">
+                    CONTATO
+                </li>
+                <li class="home-section1-nav-item px-4 pt-4 pb-3 bg-preto text-white">
+                    EN
+                </li>
+                <li class="home-section1-nav-item px-4 pt-4 pb-3 bg-preto text-white">
+                    <i class="fas fa-search"></i>
+                </li>
+            </ul>
+        </div>
+
+        <div id="home-section1-nav-lateral" style="display: block; position: absolute; top: 0px; right: 0px; width: 80px;">
+            <div class="container-fluid px-0 py-0">
+                <div class="row mx-0">
+                    <div class="col-12 px-0">
+                        <div class="row pt-5 mt-5 mx-0">
+                            <div class="col-12 py-3 px-0 text-center">
+                                <i class="fab fa-instagram fa-lg text-white"></i>
+                            </div>
+                        </div>
+                        <div class="row mx-0">
+                            <div class="col-12 py-3 px-0 text-center">
+                                <i class="fab fa-twitter fa-lg text-white"></i>
+                            </div>
+                        </div>
+                        <div class="row mx-0">
+                            <div class="col-12 py-3 px-0 text-center">
+                                <i class="fab fa-whatsapp fa-lg text-white"></i>
+                            </div>
+                        </div>
+                        <div class="row pb-5 mx-0">
+                            <div class="col-12 py-3 px-0 text-center">
+                                <i class="fab fa-facebook fa-lg text-white"></i>
+                            </div>
+                        </div>
+                        <div class="row mx-0 mt-2 py-3 text-center justify-content-center">
+                            <div class="col-2 px-0 text-center" id="home-section1-nav-lateral-page-number">
+                                <span>1 / 5</span>
+                            </div>
+                        </div>
+                        <div class="row mx-0">
+                            <div class="col-6 home-section1-nav-lateral-page-buttons bg-preto text-white py-3">
+                                <i class="fas fa-chevron-left fa-sm"></i>
+                            </div>
+                            <div class="col-6 home-section1-nav-lateral-page-buttons bg-laranja-1 text-white py-3">
+                                <i class="fas fa-chevron-right fa-sm"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div style="width: 150px; height: 150px; background-color: white; display: block; position: absolute; top: 25px; left: 25px;">
-    </div>
-    <div style="width: 60px; height: 100px; background-color: white; display: block; position: absolute; top: calc(50% - 50px); left: 0px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;">
-    </div>
-</div>
 
-<body>
+    <!-- SECTION 2 -->
+    <div class="container-fluid bg-preto" >
+        <div class="row justify-content-center align-items-center" style="min-height: 100vh;">
+            <div class="col-lg-5 text-center">
+                <div id="home-section2-box1" class="bg-preto text-white">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img class="" width="15" src="imagens/retangulo-laranja.png" alt="Retângulo laranja">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-11 px-5 text-center" id="home-section2-box1-title">
+                            <h6>BARDEGA</h6>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center pt-3">
+                        <div class="col-11 px-5 text-center" id="home-section2-box1-text">
+                            110 rótulos selecionados para você!
+                        </div>
+                    </div>
+                    <div class="row justify-content-center pt-3">
+                        <div class="col-8 text-left" id="home-section2-box1-subtext">
+                            São 110 vinhos do mundo todo para você degustar em taças de 120ml, 60ml ou 30ml.              
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-12 text-center" >
+                            <button id="home-section2-box1-botao">SAIBA MAIS</button>               
+                        </div>
+                    </div>
+    
+                </div>
+                <img src="imagens/video-home-section2.png" class="w-100" alt="">
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- FONT AWESOME -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous"></script>
 </body>
 
 </html>
